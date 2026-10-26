@@ -8,7 +8,7 @@ and the promo shorts.
 
 | Path | What it is |
 |------|------------|
-| `site/` | Static T-shirt gallery — the Vercel deployment source |
+| `site/` | Static site — the Vercel deployment source: `index.html` T-shirt gallery plus `shorts.html` (preview + download page for the promo shorts). `site/videos/` mirrors `shorts/` and `site/img/posters/` holds the poster frames; both are hand-maintained — the tee-site generator doesn't produce them, so re-copy them after regenerating the gallery |
 | `prints/` | Print-resolution artwork, one `<design>--<shirt>.{png,svg}` pair per colourway (120 files; PNG is print-res raster, SVG is the vector master) |
 | `mockups/` | On-shirt mockup renders, same naming as `prints/` (120 files) |
 | `manifest.json` | Design/shirt metadata used by the generator and site |
