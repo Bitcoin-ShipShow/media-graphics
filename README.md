@@ -23,13 +23,15 @@ The site is deployed as Vercel project `bitcoin-shipshow-tees`
 
 ```bash
 cd site
-vercel link            # pick scope "bitkarrots-projects", project "bitcoin-shipshow-tees"
+vercel link --yes --project bitcoin-shipshow-tees --team bitkarrots-projects
 vercel deploy --prod --yes
 ```
 
 `.vercel/` is gitignored on purpose — it holds the org/project IDs, and Vercel
-recommends not sharing it. `vercel link` recreates it. The local
-`.env.local` (`VERCEL_OIDC_TOKEN`) is also deliberately not committed.
+recommends not sharing it. The `vercel link` line above recreates it
+non-interactively and writes a fresh `.env.local` (`VERCEL_OIDC_TOKEN`), which
+is also deliberately not committed. Verified 2026-10-26: a copy of `site/`
+without `.vercel` linked and deployed to production with those two commands.
 
 ## Regenerating the artwork
 
