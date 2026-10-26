@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bitcoin Shipshow · T-shirt designs</title>
+<meta name="description" content="T-shirt designs for the Bitcoin Shipshow, the Pirates' Community Call. Browse every design on a shirt or on its own, in every colourway.">
+<meta property="og:title" content="Bitcoin Shipshow · T-shirt designs">
+<meta property="og:description" content="Pirate-themed shirts for the Pirates' Community Call: fronts, backs and a left-chest emblem in every colourway.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pirata+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead__inner">
+    <a class="brand" href="https://bitcoinship.show" id="brand-home">
+      <img src="img/logo.webp" alt="" width="132" height="79">
+      <span>Bitcoin Shipshow</span>
+    </a>
+    <p class="masthead__kicker">The Ship's Locker</p>
+    <h1>T-shirt designs for the Pirates' Community Call</h1>
+    <p class="masthead__lede">Every design is built on the show's paper boat, folded from the genesis-block front page. Pick a design to see it on a shirt or on its own, in every colourway.</p>
+  </div>
+</header>
+
+<main>
+  <div class="toolbar" role="radiogroup" aria-label="Filter designs">
+    <label class="tab"><input type="radio" name="filter" value="all" checked><span>All</span></label>
+    <label class="tab"><input type="radio" name="filter" value="front"><span>Front prints</span></label>
+    <label class="tab"><input type="radio" name="filter" value="back"><span>Back prints</span></label>
+    <label class="tab"><input type="radio" name="filter" value="chest"><span>Left chest</span></label>
+    <p class="toolbar__count" aria-live="polite"></p>
+  </div>
+  <ul class="grid" id="grid"></ul>
+</main>
+
+<dialog class="viewer" id="viewer" aria-labelledby="viewer-title">
+  <div class="viewer__stage">
+    <div class="viewer__view" role="radiogroup" aria-label="View">
+      <label class="tab"><input type="radio" name="view" value="mockup" checked><span>On a shirt</span></label>
+      <label class="tab"><input type="radio" name="view" value="design"><span>Design only</span></label>
+    </div>
+    <figure class="viewer__figure">
+      <img id="viewer-img" alt="">
+    </figure>
+    <button class="viewer__nav viewer__nav--prev" type="button" aria-label="Previous design">‹</button>
+    <button class="viewer__nav viewer__nav--next" type="button" aria-label="Next design">›</button>
+  </div>
+  <div class="viewer__panel">
+    <button class="viewer__close" type="button" aria-label="Close">×</button>
+    <p class="viewer__tag" id="viewer-tag"></p>
+    <h2 id="viewer-title"></h2>
+    <p class="viewer__desc" id="viewer-desc"></p>
+    <h3>Shirt colour</h3>
+    <div class="swatches" id="viewer-swatches" role="radiogroup" aria-label="Shirt colour"></div>
+    <p class="viewer__shirt" id="viewer-shirt"></p>
+    <div class="viewer__download" id="viewer-download"></div>
+  </div>
+</dialog>
+
+<footer class="footer">
+  <p class="footer__statement">We don't sink, we swim.</p>
+  <p class="footer__hosts">Hosted by Tomek · AJ · Bitkarrot · adpot</p>
+  <ul class="footer__links">
+    <li><a href="https://bitcoinship.show" id="footer-site">bitcoinship.show</a></li>
+    <li><a href="https://www.youtube.com/@BitcoinShipshow" id="footer-youtube">YouTube @BitcoinShipshow</a></li>
+    <li><span>#bitcoinshipshow</span></li>
+  </ul>
+</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,542 @@
+[
+ {
+  "slug": "01-a-pirates-tears",
+  "title": "A Pirate's Tears",
+  "placement": "front",
+  "shirt": "white",
+  "shirtName": "White",
+  "shirtHex": "#ffffff",
+  "name": "01-a-pirates-tears--white"
+ },
+ {
+  "slug": "01-a-pirates-tears",
+  "title": "A Pirate's Tears",
+  "placement": "front",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "01-a-pirates-tears--yellow"
+ },
+ {
+  "slug": "01-a-pirates-tears",
+  "title": "A Pirate's Tears",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "01-a-pirates-tears--red"
+ },
+ {
+  "slug": "01-a-pirates-tears",
+  "title": "A Pirate's Tears",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "01-a-pirates-tears--black"
+ },
+ {
+  "slug": "02-pixel-mutiny",
+  "title": "Pixel Mutiny",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "02-pixel-mutiny--black"
+ },
+ {
+  "slug": "02-pixel-mutiny",
+  "title": "Pixel Mutiny",
+  "placement": "front",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "02-pixel-mutiny--yellow"
+ },
+ {
+  "slug": "02-pixel-mutiny",
+  "title": "Pixel Mutiny",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "02-pixel-mutiny--red"
+ },
+ {
+  "slug": "02-pixel-mutiny",
+  "title": "Pixel Mutiny",
+  "placement": "front",
+  "shirt": "white",
+  "shirtName": "White",
+  "shirtHex": "#ffffff",
+  "name": "02-pixel-mutiny--white"
+ },
+ {
+  "slug": "03-we-dont-sink-we-swim",
+  "title": "We Don't Sink, We Swim",
+  "placement": "front",
+  "shirt": "navy",
+  "shirtName": "Navy",
+  "shirtHex": "#13294b",
+  "name": "03-we-dont-sink-we-swim--navy"
+ },
+ {
+  "slug": "03-we-dont-sink-we-swim",
+  "title": "We Don't Sink, We Swim",
+  "placement": "front",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "03-we-dont-sink-we-swim--yellow"
+ },
+ {
+  "slug": "03-we-dont-sink-we-swim",
+  "title": "We Don't Sink, We Swim",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "03-we-dont-sink-we-swim--red"
+ },
+ {
+  "slug": "03-we-dont-sink-we-swim",
+  "title": "We Don't Sink, We Swim",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "03-we-dont-sink-we-swim--black"
+ },
+ {
+  "slug": "04-show-what-you-shipped",
+  "title": "Show What You Shipped",
+  "placement": "front",
+  "shirt": "natural",
+  "shirtName": "Natural",
+  "shirtHex": "#efe4cf",
+  "name": "04-show-what-you-shipped--natural"
+ },
+ {
+  "slug": "04-show-what-you-shipped",
+  "title": "Show What You Shipped",
+  "placement": "front",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "04-show-what-you-shipped--yellow"
+ },
+ {
+  "slug": "04-show-what-you-shipped",
+  "title": "Show What You Shipped",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "04-show-what-you-shipped--red"
+ },
+ {
+  "slug": "04-show-what-you-shipped",
+  "title": "Show What You Shipped",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "04-show-what-you-shipped--black"
+ },
+ {
+  "slug": "05-fold-the-bailout",
+  "title": "Fold the Bailout",
+  "placement": "front",
+  "shirt": "ocean",
+  "shirtName": "Ocean blue",
+  "shirtHex": "#1a6e9a",
+  "name": "05-fold-the-bailout--ocean"
+ },
+ {
+  "slug": "05-fold-the-bailout",
+  "title": "Fold the Bailout",
+  "placement": "front",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "05-fold-the-bailout--yellow"
+ },
+ {
+  "slug": "05-fold-the-bailout",
+  "title": "Fold the Bailout",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "05-fold-the-bailout--red"
+ },
+ {
+  "slug": "05-fold-the-bailout",
+  "title": "Fold the Bailout",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "05-fold-the-bailout--black"
+ },
+ {
+  "slug": "06-community-call-emblem",
+  "title": "Pirates' Community Call",
+  "placement": "front",
+  "shirt": "charcoal",
+  "shirtName": "Charcoal",
+  "shirtHex": "#2a2d34",
+  "name": "06-community-call-emblem--charcoal"
+ },
+ {
+  "slug": "06-community-call-emblem",
+  "title": "Pirates' Community Call",
+  "placement": "front",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "06-community-call-emblem--yellow"
+ },
+ {
+  "slug": "06-community-call-emblem",
+  "title": "Pirates' Community Call",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "06-community-call-emblem--red"
+ },
+ {
+  "slug": "06-community-call-emblem",
+  "title": "Pirates' Community Call",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "06-community-call-emblem--black"
+ },
+ {
+  "slug": "07-left-chest-emblem",
+  "title": "Left-Chest Emblem",
+  "placement": "chest",
+  "shirt": "charcoal",
+  "shirtName": "Charcoal",
+  "shirtHex": "#2a2d34",
+  "name": "07-left-chest-emblem--charcoal"
+ },
+ {
+  "slug": "07-left-chest-emblem",
+  "title": "Left-Chest Emblem",
+  "placement": "chest",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "07-left-chest-emblem--yellow"
+ },
+ {
+  "slug": "07-left-chest-emblem",
+  "title": "Left-Chest Emblem",
+  "placement": "chest",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "07-left-chest-emblem--red"
+ },
+ {
+  "slug": "07-left-chest-emblem",
+  "title": "Left-Chest Emblem",
+  "placement": "chest",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "07-left-chest-emblem--black"
+ },
+ {
+  "slug": "07-left-chest-emblem",
+  "title": "Left-Chest Emblem",
+  "placement": "chest",
+  "shirt": "white",
+  "shirtName": "White",
+  "shirtHex": "#ffffff",
+  "name": "07-left-chest-emblem--white"
+ },
+ {
+  "slug": "07-left-chest-emblem",
+  "title": "Left-Chest Emblem",
+  "placement": "chest",
+  "shirt": "navy",
+  "shirtName": "Navy",
+  "shirtHex": "#13294b",
+  "name": "07-left-chest-emblem--navy"
+ },
+ {
+  "slug": "08-back-crew-manifest",
+  "title": "Crew Manifest (back)",
+  "placement": "back",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "08-back-crew-manifest--black"
+ },
+ {
+  "slug": "08-back-crew-manifest",
+  "title": "Crew Manifest (back)",
+  "placement": "back",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "08-back-crew-manifest--yellow"
+ },
+ {
+  "slug": "08-back-crew-manifest",
+  "title": "Crew Manifest (back)",
+  "placement": "back",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "08-back-crew-manifest--red"
+ },
+ {
+  "slug": "08-back-crew-manifest",
+  "title": "Crew Manifest (back)",
+  "placement": "back",
+  "shirt": "white",
+  "shirtName": "White",
+  "shirtHex": "#ffffff",
+  "name": "08-back-crew-manifest--white"
+ },
+ {
+  "slug": "08-back-crew-manifest",
+  "title": "Crew Manifest (back)",
+  "placement": "back",
+  "shirt": "navy",
+  "shirtName": "Navy",
+  "shirtHex": "#13294b",
+  "name": "08-back-crew-manifest--navy"
+ },
+ {
+  "slug": "09-back-ships-log",
+  "title": "Ship's Log (back)",
+  "placement": "back",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "09-back-ships-log--black"
+ },
+ {
+  "slug": "09-back-ships-log",
+  "title": "Ship's Log (back)",
+  "placement": "back",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "09-back-ships-log--yellow"
+ },
+ {
+  "slug": "09-back-ships-log",
+  "title": "Ship's Log (back)",
+  "placement": "back",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "09-back-ships-log--red"
+ },
+ {
+  "slug": "09-back-ships-log",
+  "title": "Ship's Log (back)",
+  "placement": "back",
+  "shirt": "white",
+  "shirtName": "White",
+  "shirtHex": "#ffffff",
+  "name": "09-back-ships-log--white"
+ },
+ {
+  "slug": "09-back-ships-log",
+  "title": "Ship's Log (back)",
+  "placement": "back",
+  "shirt": "navy",
+  "shirtName": "Navy",
+  "shirtHex": "#13294b",
+  "name": "09-back-ships-log--navy"
+ },
+ {
+  "slug": "10-a-pirates-tears-jolly-roger",
+  "title": "A Pirate's Tears: Jolly Roger",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "10-a-pirates-tears-jolly-roger--black"
+ },
+ {
+  "slug": "10-a-pirates-tears-jolly-roger",
+  "title": "A Pirate's Tears: Jolly Roger",
+  "placement": "front",
+  "shirt": "white",
+  "shirtName": "White",
+  "shirtHex": "#ffffff",
+  "name": "10-a-pirates-tears-jolly-roger--white"
+ },
+ {
+  "slug": "10-a-pirates-tears-jolly-roger",
+  "title": "A Pirate's Tears: Jolly Roger",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "10-a-pirates-tears-jolly-roger--red"
+ },
+ {
+  "slug": "10-a-pirates-tears-jolly-roger",
+  "title": "A Pirate's Tears: Jolly Roger",
+  "placement": "front",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "10-a-pirates-tears-jolly-roger--yellow"
+ },
+ {
+  "slug": "11-not-your-keys-not-your-ship",
+  "title": "Not Your Keys, Not Your Ship",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "11-not-your-keys-not-your-ship--black"
+ },
+ {
+  "slug": "11-not-your-keys-not-your-ship",
+  "title": "Not Your Keys, Not Your Ship",
+  "placement": "front",
+  "shirt": "white",
+  "shirtName": "White",
+  "shirtHex": "#ffffff",
+  "name": "11-not-your-keys-not-your-ship--white"
+ },
+ {
+  "slug": "11-not-your-keys-not-your-ship",
+  "title": "Not Your Keys, Not Your Ship",
+  "placement": "front",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "11-not-your-keys-not-your-ship--yellow"
+ },
+ {
+  "slug": "11-not-your-keys-not-your-ship",
+  "title": "Not Your Keys, Not Your Ship",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "11-not-your-keys-not-your-ship--red"
+ },
+ {
+  "slug": "12-x-marks-the-block",
+  "title": "X Marks the Block",
+  "placement": "front",
+  "shirt": "natural",
+  "shirtName": "Natural",
+  "shirtHex": "#efe4cf",
+  "name": "12-x-marks-the-block--natural"
+ },
+ {
+  "slug": "12-x-marks-the-block",
+  "title": "X Marks the Block",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "12-x-marks-the-block--black"
+ },
+ {
+  "slug": "12-x-marks-the-block",
+  "title": "X Marks the Block",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "12-x-marks-the-block--red"
+ },
+ {
+  "slug": "12-x-marks-the-block",
+  "title": "X Marks the Block",
+  "placement": "front",
+  "shirt": "navy",
+  "shirtName": "Navy",
+  "shirtHex": "#13294b",
+  "name": "12-x-marks-the-block--navy"
+ },
+ {
+  "slug": "13-wanted-builders",
+  "title": "Wanted: Builders",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "13-wanted-builders--black"
+ },
+ {
+  "slug": "13-wanted-builders",
+  "title": "Wanted: Builders",
+  "placement": "front",
+  "shirt": "charcoal",
+  "shirtName": "Charcoal",
+  "shirtHex": "#2a2d34",
+  "name": "13-wanted-builders--charcoal"
+ },
+ {
+  "slug": "13-wanted-builders",
+  "title": "Wanted: Builders",
+  "placement": "front",
+  "shirt": "red",
+  "shirtName": "Red",
+  "shirtHex": "#b1262c",
+  "name": "13-wanted-builders--red"
+ },
+ {
+  "slug": "13-wanted-builders",
+  "title": "Wanted: Builders",
+  "placement": "front",
+  "shirt": "navy",
+  "shirtName": "Navy",
+  "shirtHex": "#13294b",
+  "name": "13-wanted-builders--navy"
+ },
+ {
+  "slug": "14-sail-the-seven-relays",
+  "title": "Sail the Seven Relays",
+  "placement": "front",
+  "shirt": "navy",
+  "shirtName": "Navy",
+  "shirtHex": "#13294b",
+  "name": "14-sail-the-seven-relays--navy"
+ },
+ {
+  "slug": "14-sail-the-seven-relays",
+  "title": "Sail the Seven Relays",
+  "placement": "front",
+  "shirt": "black",
+  "shirtName": "Black",
+  "shirtHex": "#141417",
+  "name": "14-sail-the-seven-relays--black"
+ },
+ {
+  "slug": "14-sail-the-seven-relays",
+  "title": "Sail the Seven Relays",
+  "placement": "front",
+  "shirt": "white",
+  "shirtName": "White",
+  "shirtHex": "#ffffff",
+  "name": "14-sail-the-seven-relays--white"
+ },
+ {
+  "slug": "14-sail-the-seven-relays",
+  "title": "Sail the Seven Relays",
+  "placement": "front",
+  "shirt": "yellow",
+  "shirtName": "Maize yellow",
+  "shirtHex": "#f2c230",
+  "name": "14-sail-the-seven-relays--yellow"
+ }
+]
