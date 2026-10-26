@@ -8,13 +8,13 @@ and the promo shorts.
 
 | Path | What it is |
 |------|------------|
-| `site/` | Static site — the Vercel deployment source: `index.html` T-shirt gallery plus `shorts.html` (preview + download page for the promo shorts). `site/videos/` mirrors `shorts/` and `site/img/posters/` holds the poster frames; both are hand-maintained — the tee-site generator doesn't produce them, so re-copy them after regenerating the gallery |
+| `site/` | Static site — the Vercel deployment source: `index.html` T-shirt gallery plus `shorts.html` (preview + download page for the promo shorts). **Media drop = `site/videos/`**: `site/scripts/build_shorts_page.py` regenerates `shorts.html`, `shorts.css`, the poster frames in `site/img/posters/` and the nav link in `index.html`/`styles.css` from the MP4s — it runs automatically as the Vercel `buildCommand`, so push a new MP4 into `site/videos/` and the next `vercel deploy --prod` rebuilds the page. Per-video titles/descriptions live in the script's `SHORTS` map (unknown files get a Title-Case fallback card) |
 | `prints/` | Print-resolution artwork, one `<design>--<shirt>.{png,svg}` pair per colourway (120 files; PNG is print-res raster, SVG is the vector master) |
 | `mockups/` | On-shirt mockup renders, same naming as `prints/` (120 files) |
 | `manifest.json` | Design/shirt metadata used by the generator and site |
 | `contact-sheet.png` | Overview grid of all designs |
 | `TSHIRTS.md` | Design list (14 designs, 60 colourways) and credits |
-| `shorts/` | Promo shorts (MP4, 1080p): `bitcoin-shipshow-short-{one,two,spyglass,wanted,pixelpirates,broadside}.mp4` plus the E02 announcement `2026nov3_bitcoinshipshow.mp4` |
+| `site/videos/` | Promo shorts (MP4, 1080p): `bitcoin-shipshow-short-{one,two,spyglass,wanted,pixelpirates,broadside}.mp4` plus the E02 announcement `2026nov3_bitcoinshipshow.mp4` |
 
 ## Redeploying the site
 
