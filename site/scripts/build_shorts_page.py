@@ -212,9 +212,22 @@ def ffmpeg_bin() -> str:
     try:
         import imageio_ffmpeg  # type: ignore
     except ImportError:
-        subprocess.run(
-            [sys.executable, "-m", "pip", "install", "imageio-ffmpeg"], check=True
-        )
+        try:
+            subprocess.run(
+                [sys.executable, "-m", "pip", "install", "imageio-ffmpeg"],
+                check=True,
+            )
+        except subprocess.CalledProcessError:
+            # PEP 668 managed environments (e.g. uv-managed Python on the
+            # Vercel build image) refuse plain pip installs; the throwaway
+            # build container makes --break-system-packages harmless here.
+            subprocess.run(
+                [
+                    sys.executable, "-m", "pip", "install",
+                    "--break-system-packages", "imageio-ffmpeg",
+                ],
+                check=True,
+            )
         import imageio_ffmpeg  # type: ignore
     return imageio_ffmpeg.get_ffmpeg_exe()
 
