@@ -1,6 +1,7 @@
 {
  "cleanUrls": true,
  "buildCommand": "python3 scripts/build_shorts_page.py",
+ "outputDirectory": ".",
  "headers": [
   {
    "source": "/img/(.*)",
